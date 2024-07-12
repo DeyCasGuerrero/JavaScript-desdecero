@@ -21,4 +21,6 @@ function getMessage(rol){
 }
 const message = getMessage('user')
 
-console.log(message)
+console.log(message);
+
+
