@@ -64,7 +64,7 @@ let myArray = ['Papuh', 30];
 
 console.log("el tipos del array es :",typeof myArray); // imprime 'object'
 
-console.log("el primer valor es ",myArray[0]); // imprime 'Deyvi'
+console.log("el primer valor es ",myArray[0]); // imprime 'Papuh'
 
 console.log("el segundo valor es",myArray[1]); // imprime 30
 
