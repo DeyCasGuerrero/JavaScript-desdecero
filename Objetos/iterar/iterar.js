@@ -65,6 +65,8 @@ const Users = [
     }
 ]
 
+console.log('++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++')
+
 //Mediante map()
 
 const data = Users.map((user) => {
@@ -84,6 +86,10 @@ const data = Users.map((user) => {
 
 console.log(data);
 
+
+console.log('++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++')
+
 //mediante ForEach()
 
-// const data = Users.forEach((user)=> console.log(user))
+const users = Users.forEach((user)=> console.log(user));
+console.log(user);

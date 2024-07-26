@@ -7,10 +7,10 @@ Este repositorio contiene ejemplos prácticos y simples para aprender JavaScript
 El repositorio está organizado en carpetas por temas principales de JavaScript:
 
 - **01_basico**: Variables, funciones, condicionales y bucles.
-  
+- **02_objetos**: Creación y manipulación de objetos (manipulación pronto).
+
   ## to be continued soon
   
-- **02_objetos**: Creación y manipulación de objetos, incluyendo herencia.
 - **03_arrays**: Uso de arrays y métodos para trabajar con listas de datos.
 - **04_dom**: Manipulación del Document Object Model (DOM) para interactuar con páginas web.
 - **05_promesas**: Uso de promesas para trabajar con operaciones asíncronas de manera más eficiente.

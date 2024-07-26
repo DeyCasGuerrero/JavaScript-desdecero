@@ -1,12 +1,6 @@
+// funciones/metodos avanzadas 
 
-// const names = ["Dey", "Juan", "John", "Paul"]
-
-// names.push("Mary")
-
-// console.log(names);
-
-
-
+// CONTINUARÁ ................
 function filter(){
 
     const existingCategoryIds = [1, 2, 3, 4, 5, 6, 7, 8, 9]

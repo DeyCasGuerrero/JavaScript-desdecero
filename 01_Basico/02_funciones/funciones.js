@@ -11,19 +11,39 @@ getName();
 
 
 // FUNCIÓN CON PARAMETRO Y RETORNO
-//pasar un numero a la función y que lo multiplique
-function Multiplicar(number){
+//pasar un numero a la función y que lo multiplique por 10
+function multiplicar(number){
     return number*10; // función que retorna la multiplicación
 }
 
-const number = Multiplicar(8);
+//el number recibe lo que retorna la funcion Multiplicar()
+const number = multiplicar(8);
 
-console.log(number);
+console.log("la multiplicación por 10 es :",number);
+
 
 // FUCIÓN CON DOS PARAMETROS
-
-function Sumar(num1, num2){
+function sumar(num1, num2){
     return num1 + num2; // función que retorna la suma
 }
 
-console.log(Sumar(5, 10));
+// puedes enviar directamente desde la funcion los parametos y dentro de la consola
+console.log(sumar(5, 10));
+
+
+// FUCIÓN CON TRES PARAMETROS
+function SumarTresParametros(num1, num2, num3){
+    return num1 + num2 + num3; // función que retorna la suma de tres numeros
+}
+
+// en este caso está separado y ordenado 
+//recibe lo que retorna de la función con un const sumatoria
+const sumatoria = SumarTresParametros(4,3,1);
+
+// llamamos el const sumatoria detro del console.log
+console.log("La sumatoria de 3 numeros es :", sumatoria);
+
+
+
+
+
