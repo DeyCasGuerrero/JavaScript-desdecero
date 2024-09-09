@@ -8,10 +8,10 @@ El repositorio está organizado en carpetas por temas principales de JavaScript:
 
 - **01_basico**: Variables, funciones, condicionales y bucles.
 - **02_arrays**: Uso de arrays y métodos para trabajar con listas de datos (manipulación pronto).
+- **03_objetos**: Creación y manipulación de objetos. (Quizás exitenda mas sobre este tema) 
 
-  ## to be continued soon
-  
-- **03_objetos**: Creación y manipulación de objetos.
+ ## to be continued soon
+ 
 - **04_dom**: Manipulación del Document Object Model (DOM) para interactuar con páginas web.
 - **05_promesas**: Uso de promesas para trabajar con operaciones asíncronas de manera más eficiente.
 - **06_modulos**: Organización de código utilizando módulos en JavaScript.

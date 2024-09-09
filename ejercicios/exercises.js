@@ -37,3 +37,34 @@ function Polidromo(word){
 const res = Polidromo('313')
 
 console.log(res);
+
+
+//CREA UN JUEGO DE PIEDRA, PAPEL O TIJERAS
+
+function evaluarJuego(opcion) {
+    const index = Math.floor(Math.random() * 3);
+
+    const respuesta = retornarIa(index);
+
+    if (respuesta ===opcion ) {
+        console.log(`TU EMPATASTE, LA OPCION DE LA MAQUINA ${respuesta} y tu opcion ${opcion}`);
+    } else if (
+        ( opcion=== 'Piedra' &&  respuesta=== 'Tijera') ||
+        (opcion === 'Papel' && respuesta === 'Piedra') ||
+        (opcion === 'Tijera' &&  respuesta=== 'Papel')
+    ) {
+        console.log(`GANaste, LA OPCION DE LA MAQUINA ${respuesta} y tu opcion ${opcion}`);
+    } else {
+        console.log(`Perdiste, LA OPCION DE LA MAQUINA ${respuesta} y tu opcion ${opcion}`);
+    }
+
+}
+
+function retornarIa(decision) {
+    decisiones = ['Piedra', 'Tijera', 'Papel'];
+    return decisiones[decision];
+}
+
+evaluarJuego("Piedra");
+
+

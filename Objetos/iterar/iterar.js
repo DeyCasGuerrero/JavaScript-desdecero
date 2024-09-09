@@ -6,6 +6,7 @@ const User= {
     country: 'Japan'
 }
 
+// para acceder los valores del objeto
 console.log(`Nombre: ${User.name}`);
 console.log(`Correo electrónico: ${User.email}`);
 console.log(`Edad: ${User.age}`);
